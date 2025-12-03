@@ -102,8 +102,8 @@ python resize.py
 
 ## ❤️ Final Thoughts
 This project exists because manually typing FFmpeg commands is character-building,
-but sometimes you just want to press a button and feel like royalty.
+but sometimes you just want to press a button and feel like royalty. Also I prefer to sped hours writing a script than just spending 10 minutes doing it the normal way...
 
 If this made your life easier, even once, it has served its noble purpose.
 
-Enjoy converting! 🎥🍿
+# Enjoy converting! 🎥🍿
