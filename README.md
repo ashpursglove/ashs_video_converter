@@ -88,20 +88,21 @@ Clone or download this repository
 
 Install the requirements:
 
-bash\n
-Copy code\n
-pip install PyQt5\n
-Ensure FFmpeg is working:\n
+bash  
+Copy code  
+pip install PyQt5  
+Ensure FFmpeg is working:  
+  
+bash  
+Copy code  
+ffmpeg -version  
 
-bash
-Copy code
-ffmpeg -version
-Run the app:
 
-bash
-Copy code
-python ash_video_converter.py
-Boom. You're in.
+Run the app:  
+bash  
+Copy code  
+python ash_video_converter.py  
+Boom. You're in.  
 
 
 ## ❤️ Final Thoughts
