@@ -1,5 +1,3 @@
-# ashs_video_converter
-
 # **Ash's Video Converter**  
 *A gloriously over-engineered GUI wrapper for FFmpeg, handcrafted in Python and sprinkled with questionable humour.*
 
@@ -17,8 +15,7 @@
   *(say goodbye to “Untitled_1_FINAL_v3_EDITED_FIXED_REALFINAL.mp4”)*
 - Watch the conversion progress with a real progress bar
 - Spy on FFmpeg’s inner thoughts with a scrolling log window
-- Enjoy a slick, dark navy theme that looks like it belongs in a hacker movie  
-  *(but actually just converts videos instead of stopping nuclear launches)*
+- Enjoy a slick, dark navy theme and pretend you're hacker man! 
 
 This is the “I’m too lazy to remember FFmpeg arguments” tool we all need.
 
