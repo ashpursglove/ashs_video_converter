@@ -83,7 +83,7 @@ macOS users: brew install ffmpeg
 
 Linux users: you know what you’re doing
 
-##📦 Installation
+## 📦 Installation
 Clone or download this repository
 
 Install the requirements:
@@ -104,7 +104,7 @@ python ash_video_converter.py
 Boom. You're in.
 
 
-##❤️ Final Thoughts
+## ❤️ Final Thoughts
 This project exists because manually typing FFmpeg commands is character-building,
 but sometimes you just want to press a button and feel like royalty.
 
