@@ -83,7 +83,7 @@ macOS users: brew install ffmpeg
 
 Linux users: you know what you’re doing
 
-📦 Installation
+##📦 Installation
 Clone or download this repository
 
 Install the requirements:
@@ -103,52 +103,8 @@ Copy code
 python ash_video_converter.py
 Boom. You're in.
 
-🖥️ Usage
-Open Ash’s Video Converter
-(It will greet you with the comforting embrace of a dark navy theme.)
 
-Click “Browse…” and select any input video.
-
-Pick your:
-
-Output resolution
-
-Output format
-
-Output filename
-
-Hit Convert.
-
-Watch the log window go brrrrrr.
-
-Wait for the progress bar to reach 100%.
-
-Bask in the glory of your newly transformed file.
-
-🧙 Tips & Fun Extras
-Want maximum quality? Lower the CRF value in the code.
-
-Want faster encoding? Switch to ultrafast preset.
-
-Want to feel like a hacker? Resize the window, dim the lights, and mutter “enhance… enhance… enhance…”
-
-🚀 Roadmap (a.k.a “Things Ash Might Add One Day”)
-Drag-and-drop support
-
-Batch conversions
-
-Custom FFmpeg arguments input
-
-GPU acceleration toggles
-
-A button that does nothing but brings joy
-
-A “potato mode” for intentionally terrible output
-
-📝 License
-MIT License — because sharing is caring.
-
-❤️ Final Thoughts
+##❤️ Final Thoughts
 This project exists because manually typing FFmpeg commands is character-building,
 but sometimes you just want to press a button and feel like royalty.
 
