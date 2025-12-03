@@ -86,23 +86,18 @@ Linux users: you know what you’re doing
 ## 📦 Installation
 Clone or download this repository
 
-Install the requirements:
+### Install the requirements:
 
-bash  
-Copy code  
+ 
 pip install PyQt5  
-Ensure FFmpeg is working:  
-  
-bash  
-Copy code  
+
+### Ensure FFmpeg is working:  
 ffmpeg -version  
 
 
-Run the app:  
-bash  
-Copy code  
-python ash_video_converter.py  
-Boom. You're in.  
+### Run the app:  
+python resize.py  
+## Boom. You're in.  
 
 
 ## ❤️ Final Thoughts
