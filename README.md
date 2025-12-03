@@ -88,10 +88,10 @@ Clone or download this repository
 
 Install the requirements:
 
-bash
-Copy code
-pip install PyQt5
-Ensure FFmpeg is working:
+bash\n
+Copy code\n
+pip install PyQt5\n
+Ensure FFmpeg is working:\n
 
 bash
 Copy code
