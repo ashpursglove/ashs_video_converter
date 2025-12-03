@@ -1,5 +1,5 @@
 # **Ash's Video Converter**  
-*A gloriously over-engineered GUI wrapper for FFmpeg, handcrafted in Python and sprinkled with questionable humour.*
+*A gloriously over-engineered GUI wrapper for FFmpeg, handcrafted in Python with love.*
 
 ---
 
