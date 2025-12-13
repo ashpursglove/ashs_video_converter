@@ -2,6 +2,7 @@
 ### A wildly over-engineered GUI wrapper for FFmpeg, built because remembering FFmpeg flags is a form of suffering.
 
 ---
+![Uploading image.png…]()
 
 ## What Is This?
 
