@@ -1,109 +1,177 @@
-# **Ash's Video Converter**  
-*A gloriously over-engineered GUI wrapper for FFmpeg, handcrafted in Python with love.*
+# Ash’s Video Converter
+### A wildly over-engineered GUI wrapper for FFmpeg, built because remembering FFmpeg flags is a form of suffering.
 
 ---
 
 ## What Is This?
 
-**Ash’s Video Converter** is a slick, dark-themed desktop application built with PyQt5 that lets you:
+**Ash’s Video Converter** is a dark-themed desktop app built with PyQt5 that lets you convert videos without:
+- Googling FFmpeg syntax
+- Copy-pasting commands from Stack Overflow
+- Whispering “please don’t crash” into a terminal window
 
-- Convert *any* video format (as long as FFmpeg can read it, which is basically everything except microwave dinners)
-- Change resolution with one click
-- Choose your desired output file format  
-  *(mp4, mkv, mov, avi, webm—because variety is the spice of life)*
-- Give your output file a custom name  
-  *(say goodbye to “Untitled_1_FINAL_v3_EDITED_FIXED_REALFINAL.mp4”)*
-- Watch the conversion progress with a real progress bar
-- Spy on FFmpeg’s inner thoughts with a scrolling log window
-- Enjoy a slick, dark navy theme and pretend you're hacker man! 
+It exists for people who:
+- Know FFmpeg is powerful
+- Know FFmpeg is correct
+- Still absolutely refuse to type ffmpeg -i input.mp4 -vf scale=1280:720 -c:v libx264 -preset medium -crf 23 -movflags +faststart output_FINAL_v7_REAL.mp4
 
-#### This is the “I’m too lazy to remember FFmpeg arguments” tool we all need.
+This tool is the shortcut you earned.
 
 ---
 
-## Features
+## What It Does
 
-### **Accepts Any Input Video Format**
-If FFmpeg can read it, this GUI can handle it.  
-.avi? .mov? .mk4? .flv? Some obscure container from 2004?  
-Yep. Bring it on.
+It lets you:
 
-### **Pick Your Output Format**
-Choose between:
+- Convert basically any video format FFmpeg can read  
+  (which is everything except maybe cursed files from 1998)
+- Change resolution with a single click
+- Pick a sane output format
+- Rename the output file like a functioning adult
+- Watch real progress instead of guessing if FFmpeg died
+- See FFmpeg’s internal monologue scrolling past in real time
+- Enjoy a dark navy theme and feel like you’re doing serious work
 
-- **mp4**
-- **mkv**
-- **mov**
-- **avi**
-- **webm**
+In short:  
+All the power of FFmpeg.  
+None of the typing.
 
-Convert your shaky phone video into something your editing software actually likes.
+---
 
-### **Choose Your Resolution**
-From glorious Full HD to "why does this look like it was filmed with a potato":
+## Features (The Good Stuff)
 
-- 1920×1080  
-- 1280×720  
-- 854×480  
-- 640×360  
+### Accepts Pretty Much Any Input Video
+If FFmpeg can open it, this app will try.
+
+avi, mov, mp4, mkv, webm, flv, something your camera invented in 2006.  
+No judgement.  
+Just results.
+
+---
+
+### Choose Your Output Format
+Pick from:
+- mp4
+- mkv
+- mov
+- avi
+- webm
+
+Convert your video into a format that:
+- Your editor actually likes
+- Your phone will play
+- Your client won’t complain about
+
+---
+
+### Resolution Presets That Make Sense
+From “looks good everywhere” to “why is this so small”:
+
+- 1920×1080
+- 1280×720
+- 854×480
+- 640×360
 - 426×240
 
-### **Custom Output File Name**
-Name it whatever you want.  
-You’re in control.  
-You’re powerful.  
-You’ve always been powerful.
+No aspect-ratio guesswork.  
+No calculator required.
 
-### **Progress Bar + Status Updates**
-No more staring at a terminal wondering whether something is happening or whether FFmpeg has died again.  
-This GUI tracks real conversion progress using ffprobe + ffmpeg timecodes.
+---
 
-### **Full Log Window**
-See *everything* FFmpeg says in real time.  
-Useful for debugging…  
-…or for pretending you’re in a cyberpunk thriller.
+### Custom Output File Names
+You choose the name.
 
-### **Dark Navy Theme**
-Your retinas will thank you.  
-Cool, modern, professional, and just a little bit moody.
+No more:
+- Untitled.mp4
+- output_final.mp4
+- output_final_v2.mp4
+- output_final_v2_EDIT.mp4
+- output_final_v2_EDIT_REALFINAL.mp4
+
+You’re better than that now.
+
+---
+
+### Real Progress Bar
+This is not a fake spinner.
+
+The app uses FFmpeg and ffprobe timecodes to show:
+- Actual progress
+- Actual status
+- Actual reassurance that something is happening
+
+Your anxiety levels will noticeably drop.
+
+---
+
+### Full FFmpeg Log Window
+See exactly what FFmpeg is doing in real time.
+
+Useful for:
+- Debugging
+- Learning
+- Pretending you’re in a cyberpunk movie
+- Watching walls of text scroll by and feeling productive
+
+---
+
+### Dark Navy Theme
+- Easy on the eyes
+- Looks professional
+- Hides minor life regrets
+
+You can absolutely leave this open during meetings.
 
 ---
 
 ## Requirements
 
-- **Python 3.8+**
-- **PyQt5**  
-  ```bash
-  pip install PyQt5
-FFmpeg installed and visible in PATH
+- Python 3.8+
+- PyQt5
+- FFmpeg installed and available in PATH
 
-Windows users: add ffmpeg/bin to your PATH
+If FFmpeg doesn’t run from your terminal, this app cannot summon it magically.
 
-macOS users: brew install ffmpeg
-
-Linux users: you know what you’re doing
+---
 
 ## Installation
-Clone or download this repository
 
-### Install the requirements:
+- Clone or download the repository
+- Install PyQt5
+- Make sure FFmpeg works
+- Run the app
 
- 
-pip install PyQt5  
+That’s it.  
+No installers arguing with you.  
+No license agreements.  
+No subscriptions quietly starting a timer.
 
-### Ensure FFmpeg is working:  
-ffmpeg -version  
+---
 
+## Running the App
 
-### Run the app:  
-python resize.py  
-## Boom. You're in.  
+Run the Python script.
 
+The window opens.  
+You select a video.  
+You click convert.  
+Things happen.
+
+A truly radical workflow.
+
+---
 
 ## Final Thoughts
-This project exists because manually typing FFmpeg commands is character-building,
-but sometimes you just want to press a button and feel like royalty. Also I prefer to sped hours writing a script than just spending 10 minutes doing it the normal way...
 
-If this made your life easier, even once, it has served its noble purpose.
+This project exists because:
+- Typing FFmpeg commands builds character
+- But pressing a button builds happiness
 
-# Enjoy converting!
+Also because it’s apparently easier to spend hours building a GUI than to remember a handful of command-line flags.
+
+If this tool saved you even one “why is this upside down and green” moment, then it has fulfilled its purpose.
+
+---
+
+Enjoy converting.
+No terminal trauma required.
