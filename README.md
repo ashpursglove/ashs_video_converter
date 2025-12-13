@@ -2,7 +2,8 @@
 ### A wildly over-engineered GUI wrapper for FFmpeg, built because remembering FFmpeg flags is a form of suffering.
 
 ---
-![Uploading image.png…]()
+<img width="647" height="610" alt="image" src="https://github.com/user-attachments/assets/f81e1867-9e58-4691-9efd-e0c185373da4" />
+
 
 ## What Is This?
 
