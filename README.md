@@ -198,6 +198,10 @@ Also because it’s apparently easier to spend hours building a GUI than to reme
 If this tool saved you even one “why is this upside down and green” moment, then it has fulfilled its purpose.
 
 ---
+# License
 
-Enjoy converting.  
-No terminal trauma required.
+MIT License.  
+Use it, modify it, ship it, break it — just don’t blame me when your art project is still trash!
+
+---
+
