@@ -19,6 +19,30 @@ This tool is the shortcut you earned.
 
 ---
 
+## Yes, There’s Also an EXE
+
+There is a **pre-built Windows EXE** included in this repository.
+
+This is for:
+- People who want the tool to just open
+- People who are done fighting Python environments
+- People on Windows who value their remaining patience
+
+Using the EXE is:
+- Technically cheating
+- Socially frowned upon by “build it yourself” purists
+- Deeply convenient in the real world
+
+**OGs build from source.**  
+They will also tell you they built from source.
+
+Everyone else double-clicks the EXE, converts their videos, and moves on with their life.
+
+Both paths work.  
+One just comes with fewer opinions.
+
+---
+
 ## What It Does
 
 It lets you:
@@ -141,10 +165,10 @@ If FFmpeg doesn’t run from your terminal, this app cannot summon it magically.
 - Make sure FFmpeg works
 - Run the app
 
-That’s it.  
-No installers arguing with you.  
-No license agreements.  
-No subscriptions quietly starting a timer.
+Or:
+- Double-click the EXE
+- Ignore the distant screaming of GitHub purists
+- Convert your videos
 
 ---
 
@@ -173,5 +197,5 @@ If this tool saved you even one “why is this upside down and green” moment, 
 
 ---
 
-Enjoy converting.
+Enjoy converting.  
 No terminal trauma required.
