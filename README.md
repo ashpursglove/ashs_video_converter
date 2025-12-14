@@ -23,7 +23,7 @@ This tool is the shortcut you earned.
 
 ## Yes, There’s Also an EXE
 
-There is a **pre-built Windows EXE** included in this repository.
+There is a **pre-built Windows EXE** Shipped as a release.
 
 This is for:
 - People who want the tool to just open
@@ -154,7 +154,7 @@ You can absolutely leave this open during meetings.
 
 - Python 3.8+
 - PyQt5
-- FFmpeg installed and available in PATH
+- **FFmpeg installed and available in PATH**
 
 If FFmpeg doesn’t run from your terminal, this app cannot summon it magically.
 
@@ -163,7 +163,7 @@ If FFmpeg doesn’t run from your terminal, this app cannot summon it magically.
 ## Installation
 
 - Clone or download the repository
-- Install PyQt5
+- pip install -r requirements.txt
 - Make sure FFmpeg works
 - Run the app
 
